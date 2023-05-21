@@ -1,0 +1,19 @@
+h1{
+    margin: 0;
+}
+/* .Post{
+    height: 50vh;
+    width: 40vw;
+} */
+.List{
+    display: flex;
+    flex-wrap: wrap;
+    width:auto; 
+    /* border: 2px solid black; */
+}
+.List > .divv{
+    height: 450px;
+    width:300px;
+    
+
+}

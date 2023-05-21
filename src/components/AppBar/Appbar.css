@@ -1,0 +1,76 @@
+.appbar{
+    margin: auto;
+    height: 10vh;
+    width: 50vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+.appbar img{
+    height: 5vh;
+    width: 5vw;
+}
+.memories{
+    color: coral;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: cursive;
+}
+.auth{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.auth button{
+    background-color: coral; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.user{
+    height: 20px;
+    width: 100px;
+    border: 2px solid black; 
+    font-family: cursive;
+    background-color: coral;  
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logout{
+    background-color: coral; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
