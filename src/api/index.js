@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API=axios.create({baseURL:'http://localhost:8000'})
+const API=axios.create({baseURL:'https://memories-p8vhx7vrd-nikhil-dixit-09.vercel.app'})
 
 API.interceptors.request.use((req)=>{
     // var tok=JSON.parse(localStorage.getItem('profile')).token;
